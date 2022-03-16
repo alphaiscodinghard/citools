@@ -1,0 +1,35 @@
+{
+    "Предмет":{
+        "scope":"properties",
+        "prefix": "item",
+        "body": [
+            "type=item",
+            "items=$1",
+            "model=$2"
+        ],
+        "description": "Создаёт параметры предмета"        
+    },
+    "Имя":{
+        "scope": "properties",
+        "prefix": "name",
+        "body": [
+            "nbt.Display.Name=ipattern:$1"
+        ],
+        "description": "Создаёт параметр имени"
+    },
+    "Зачарование":{
+        "scope": "properties",
+        "prefix": "enchant",
+        "body": [
+            "enchantements=minecraft:$1",
+            "enchantementLevels=$2"
+        ],
+        "description": "Создаёт параметр зачарования"
+    },
+    "Количество":{
+        "scope": "properties",
+        "prefix": "stack",
+        "body": "stackSize=$1",
+        "description": "Создаёт параметр количества в ячейке"
+    }
+}

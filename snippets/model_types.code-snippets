@@ -1,0 +1,27 @@
+{
+    "Лук" :{
+        "prefix": "mbow",
+        "body": [
+            "model.bow_pulling_0=$1_0",
+            "model.bow_pulling_1=$1_1",
+            "model.bow_pulling_2=$1_2"
+        ]
+    },
+    "Арбалет":{
+        "prefix": "mcbow",
+        "body": [
+            "model.crossbow_pulling_0=$1_0",
+            "model.crossbow_pulling_1=$1_1",
+            "model.crossbow_pulling_2=$1_2"
+        ]
+    },
+    "Броня":{
+        "prefix": "marmor",
+        "body": [
+            "texture.&1_layer_1=$2_1",
+            "texture.&1_layer_1_overlay=$2_overlay_1",
+            "texture.&1_layer_2=$2_2",
+            "texture.&1_layer_2_overlay=$2_overlay_2"
+        ]
+    }
+}

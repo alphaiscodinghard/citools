@@ -1,0 +1,10 @@
+{
+    "Материалы":{
+        "prefix": "materials",
+        "body": "wooden_$1 stone_$1 iron_$1 diamond_$1 netherite_$1 golden_$1"
+    },
+    "Цвета":{
+        "prefix": "colors",
+        "body": "white_$1 orange_$1 magenta_$1 light_blue_$1 yellow_$1 lime_$1 pink_$1 gray_$1 light_gray_$1 cyan_$1 purple_$1 blue_$1 brown_$1 green_$1 red_$1 black_$1"
+    }
+}

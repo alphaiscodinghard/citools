@@ -1,0 +1,40 @@
+{
+    "name": "citools",
+    "displayName": "CITools",
+    "description": "Tools for CIT",
+    "version": "0.0.1",
+    "icon": "images/icon.png",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "repository": "github:alphaiscodinghard/citools",
+    "categories": [
+        "Snippets"
+    ],
+	"activationEvents": [
+		"onCommand:citools.encode"
+	],
+	"main": "./extension.js",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "properties",
+                "path": "./snippets/properties.code-snippets"
+            },
+            {
+                "language": "properties",
+                "path": "./snippets/model_types.code-snippets"
+            },
+            {
+                "language": "properties",
+                "path": "./snippets/items_dictionary.code-snippets"
+            }
+        ],
+    "commands":[
+            {
+                "command": "citools.encode",
+                "title": "CITools: Кодирует русские символы"
+            }
+        ]
+    }
+}
