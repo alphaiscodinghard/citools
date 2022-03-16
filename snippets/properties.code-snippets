@@ -13,7 +13,7 @@
         "scope": "properties",
         "prefix": "name",
         "body": [
-            "nbt.Display.Name=ipattern:$1"
+            "nbt.display.Name=ipattern:$1"
         ],
         "description": "Создаёт параметр имени"
     },
